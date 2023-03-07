@@ -26,4 +26,4 @@ Para la implementación del proyecto se utilizarán las siguientes herramientas:
 2.  Abre una terminal y navega hasta el directorio raíz del proyecto.
 3.  Crea una base de datos MySQL e importa el archivo `database.sql` incluido en el proyecto.
 4.  Abre el archivo `config.php` y modifica los valores de las variables `DB_HOST`, `DB_USER`, `DB_PASS` y `DB_NAME` para que coincidan con tu configuración de base de datos MySQL.
-5.  Ejecuta la aplicación utilizando un servidor web (por ejemplo, Apache).
+5.  Ejecuta la aplicación utilizando la extension "live server" de Visual Studio Code
