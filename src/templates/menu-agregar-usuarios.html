@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/agregar-usuarios.css" type="text/css" />
+    <title>Panel de administrador-ver usuarios</title>
+  </head>
+  <body>
+    <div class="container-all">
+      <div class="container-bienvenido">
+        <h2>Panel de Administrador</h2>
+        <h1>BIENVENIDO USUARIO</h1>
+        <div class="navegacion">
+          <button><h2>ver usuarios</h2></button>
+          <button><h2>agregar usuarios</h2></button>
+        </div>
+      </div>
+
+      <div class="container-principal">
+        <table id="tablaArticulos" class="table">
+          <thead>
+            <tr class="text-center">
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Correo</th>
+              <th>Ficha-tecnica</th>
+              <th>Numero-Placa</th>
+              <th>Fecha-registro</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Nombre 1</td>
+              <td>correo1@example.com</td>
+              <td>Ficha técnica 1</td>
+              <td>123ABC</td>
+              <td>01/01/2022</td>
+              <td>
+                <button class="btnEditar">Editar</button>
+                <button class="btnEliminar">Eliminar</button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Nombre 2</td>
+              <td>correo2@example.com</td>
+              <td>Ficha técnica 2</td>
+              <td>456DEF</td>
+              <td>02/02/2022</td>
+              <td>
+                <button class="btnEditar">Editar</button>
+                <button class="btnEliminar">Eliminar</button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Nombre 3</td>
+              <td>correo3@example.com</td>
+              <td>Ficha técnica 3</td>
+              <td>789GHI</td>
+              <td>03/03/2022</td>
+              <td>
+                <button class="btnEditar">Editar</button>
+                <button class="btnEliminar">Eliminar</button>
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Nombre 4</td>
+              <td>correo4@example.com</td>
+              <td>Ficha técnica 4</td>
+              <td>012JKL</td>
+              <td>04/04/2022</td>
+              <td>
+                <button class="btnEditar">Editar</button>
+                <button class="btnEliminar">Eliminar</button>
+              </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Nombre 5</td>
+              <td>correo5@example.com</td>
+              <td>Ficha técnica 5</td>
+              <td>012JKL</td>
+              <td>04/04/2022</td>
+              <td>
+                <button class="btnEditar">Editar</button>
+                <button class="btnEliminar">Eliminar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="footer">
+          <button id="btnGuardar" type="button">Guardar Cambios</button>
+          <form id="form-busqueda">
+            <input type="search" id="buscar" name="buscar" placeholder="Buscar..." />
+            <button type="submit" id="Btnbuscar">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
